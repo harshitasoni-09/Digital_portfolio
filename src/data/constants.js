@@ -218,7 +218,8 @@ export const Bio = {
         "CSS",
         "JavaScript",
       ],
-      doc: "https://media.licdn.com/dms/image/D562DAQGu2YPbWoU85g/profile-treasury-image-shrink_1280_1280/0/1697167093222?e=1709802000&v=beta&t=tXZEhNvJE5lBTq4eYi6uW0jYiyGQ19di3fJAbnlG3CA",
+      doc: ![Internship_Certificate]("C:\Users\harsh\Downloads\devtown image.jpeg")
+      ,
     },
     {
       id: 1,
@@ -233,7 +234,8 @@ export const Bio = {
         "MongoDB",
         "Git",
       ],
-      doc: "https://media.licdn.com/dms/image/D562DAQEnjunnWchdUg/profile-treasury-image-shrink_1280_1280/0/1706043566684?e=1709802000&v=beta&t=TpmHtXVcAGHjJvJ4o1rHTwehl7L571vmFO-_IdqBrAI",
+      doc: ![Letter_of_recomendation]("C:\Users\harsh\Downloads\oasis infobyte image.jpeg")
+      ,
     },
     {
       id: 2,
@@ -246,7 +248,8 @@ export const Bio = {
         "FrontEnd Development",
         "Visual Web Developer",
       ],
-      doc: "https://media.licdn.com/dms/image/D562DAQEpFGZjn7Ce8A/profile-treasury-image-shrink_800_800/0/1706263206443?e=1709802000&v=beta&t=m1NDf1y8UJnxpvqczNu-GE9t_IhPs4a7m-JH1pRX7ps",
+      doc: ![Certificate_of_simulation]("C:\Users\harsh\Downloads\forage image.jpeg")
+      ,
     },
     {
       id: 3,
@@ -263,7 +266,8 @@ export const Bio = {
         "Pandas (Software)",
         "data preprocessing",
     ],
-      doc: "https://media.licdn.com/dms/image/D4E2DAQH9U53RwvhDXA/profile-treasury-image-shrink_1280_1280/0/1707834315481?e=1709802000&v=beta&t=B8oo6mC06zKI1fBVlBJtj3tkS2hH8m3VPHiLd3y6kfE",
+      doc: ![Intership_certificate]("C:\Users\harsh\Downloads\is image.jpeg")
+      ,
     },
     {
       id: 4,
@@ -279,7 +283,6 @@ export const Bio = {
         "IoT Device Development",
         "Testing and Debugging",
       ],
-      doc: "https://media.licdn.com/dms/image/D562DAQEZjkfTkdmLAw/profile-treasury-image-shrink_1280_1280/0/1706361777198?e=1709802000&v=beta&t=bJc6I4YgXwIKv6DOG0YLSPiXvuZzJTMOkojuAjEcB_M"
     },
     {
       id: 5,
@@ -462,7 +465,7 @@ export const Bio = {
       description:
         "a Real-Time Pizza delivery app built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This project allows users to order pizzas with a dynamic, real-time experience.",
       image:
-        "https://media.licdn.com/dms/image/D4E2DAQEUr37RrR-yvQ/profile-treasury-image-shrink_800_800/0/1704736348801?e=1709805600&v=beta&t=3kOrRAQ_-tqLkcGQl0AVJmyD80uS_5RhiwIRNxKmc9A",
+        "https://media.licdn.com/dms/image/D4E2DAQEUr37RrR-yvQ/profile-treasury-image-shrink_800_800/0/1704736348801?e=1712426400&v=beta&t=Ii17nFMjb6p2q1UZa2D-hx31HvTjT05TEdSqFlOsfHg",
       tags: ["MERN", "Laravel", "Socket I.O.Communication","GitHUb","HTML/CSS","JavaScript"],
       category: "web app",
       github: "https://github.com/harshitasoni-09",
