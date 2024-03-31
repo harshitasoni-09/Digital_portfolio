@@ -218,7 +218,7 @@ export const Bio = {
         "CSS",
         "JavaScript",
       ],
-      doc: ![Internship_Certificate]("C:\Users\harsh\Downloads\devtown image.jpeg")
+      doc: "https://media.licdn.com/dms/image/D562DAQGu2YPbWoU85g/profile-treasury-image-shrink_1280_1280/0/1697167093222?e=1712498400&v=beta&t=04kVVz6hEq-Hu1Zq14EcedH2tJTgS7R77THfzXrJoO0"
       ,
     },
     {
@@ -234,8 +234,8 @@ export const Bio = {
         "MongoDB",
         "Git",
       ],
-      doc: ![Letter_of_recomendation]("C:\Users\harsh\Downloads\oasis infobyte image.jpeg")
-      ,
+      doc: "https://media.licdn.com/dms/image/D562DAQEnjunnWchdUg/profile-treasury-image-shrink_1280_1280/0/1706043566684?e=1712498400&v=beta&t=yEmTH_A-IDurUKJUgQHIMrGtMupaBo2kRIjG-4-fTlg",
+      
     },
     {
       id: 2,
@@ -248,7 +248,7 @@ export const Bio = {
         "FrontEnd Development",
         "Visual Web Developer",
       ],
-      doc: ![Certificate_of_simulation]("C:\Users\harsh\Downloads\forage image.jpeg")
+      doc: "https://media.licdn.com/dms/image/D562DAQEpFGZjn7Ce8A/profile-treasury-image-shrink_800_800/0/1706263206443?e=1712498400&v=beta&t=jwY-VBrB-bZ7ehvlTB6JmSiDLnDmlVvI18ecHLHC5Us"
       ,
     },
     {
@@ -266,7 +266,7 @@ export const Bio = {
         "Pandas (Software)",
         "data preprocessing",
     ],
-      doc: ![Intership_certificate]("C:\Users\harsh\Downloads\is image.jpeg")
+      doc: "https://media.licdn.com/dms/image/D4E2DAQH9U53RwvhDXA/profile-treasury-image-shrink_1280_1280/0/1707834315481?e=1712498400&v=beta&t=e_dHbt9lQtyFHlmwR-0qvZJM_YWKt50yAXaG-jhRJgo"
       ,
     },
     {
@@ -283,6 +283,7 @@ export const Bio = {
         "IoT Device Development",
         "Testing and Debugging",
       ],
+      doc: "https://media.licdn.com/dms/image/D562DAQEZjkfTkdmLAw/profile-treasury-image-shrink_1280_1280/0/1706361777198?e=1712498400&v=beta&t=YR_pjFjvDqGU9Oq_w3AxOK_XPaX8ncQS7_rEUhSfycg"
     },
     {
       id: 5,
