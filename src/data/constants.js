@@ -466,7 +466,7 @@ export const Bio = {
       description:
         "a Real-Time Pizza delivery app built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This project allows users to order pizzas with a dynamic, real-time experience.",
       image:
-        "https://media.licdn.com/dms/image/D4E2DAQEUr37RrR-yvQ/profile-treasury-image-shrink_800_800/0/1704736348801?e=1712426400&v=beta&t=Ii17nFMjb6p2q1UZa2D-hx31HvTjT05TEdSqFlOsfHg",
+        "https://th.bing.com/th/id/OIP.rWpzVJA0IUe5-WuetqkCQAAAAA?rs=1&pid=ImgDetMain",
       tags: ["MERN", "Laravel", "Socket I.O.Communication","GitHUb","HTML/CSS","JavaScript"],
       category: "web app",
       github: "https://github.com/harshitasoni-09",
