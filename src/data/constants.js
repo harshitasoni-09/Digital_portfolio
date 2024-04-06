@@ -10,7 +10,7 @@ export const Bio = {
       "ECE student with a passion for crafting seamless user experiences, specializing in front-end development. I've honed my skills in crafting web-applications.",
     github: "https://github.com/harshitasoni-09",
     Resume:
-      "https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view?usp=drive_link",
+      "https://acrobat.adobe.com/id/urn:aaid:sc:AP:c7905cf8-9cf7-4f05-9bd7-4cfbf4e1f2ea",
     linkedin: "www.linkedin.com/in/harshita-soni-950007271",
     Instagram: "https://www.instagram.com/stories/harshitasoni.09/",
   };
