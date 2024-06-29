@@ -11,7 +11,6 @@ const Container = styled.div`
   margin-bottom: 500px;
 `;
 
-
 const Title = styled.h2`
   font-size: 32px;
   font-weight: 600;
@@ -20,39 +19,39 @@ const Title = styled.h2`
 `;
 
 const Timeline = styled.div`
-  position: relative;
-  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
   width: 100%;
 `;
 
 const TimelineItem = styled.div`
-  position: relative;
-  padding-left: 40px;
-  margin-bottom: 40px;
+  background-color: ${({ theme }) => theme.card};
+  border-radius: 8px;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+  }
 
-  &:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 20px;
-    height: 20px;
-    background-color: ${({ theme }) => theme.card};
-    border-radius: 50%;
+  @media (max-width: 768px) {
+    padding: 10px;
   }
 `;
 
 const Document = styled.img`
-display: none;
-height: 70px;
-width: fit-content;
-background-color: #000;
-border-radius: 10px;
+  display: none;
+  height: 70px;
+  width: fit-content;
+  background-color: #000;
+  border-radius: 10px;
 
-&:hover{
-  cursor: pointer;
-  opacity?: 0.8;
-}
+  &:hover{
+    cursor: pointer;
+    opacity: 0.8;
+  }
 `;
 
 const TimelineContent = styled.div`
@@ -104,32 +103,32 @@ const Description = styled.div`
 `;
 
 const SkillEX = styled.div`
-width: 100%;
-display: flex;
-gap: 12px;
-margin-top: 10px;
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
 `;
 
 const Skill = styled.div`
-font-size: 15px;
-font-weight: 400;
-color: ${({ theme }) => theme.text_primary + 99};
+  font-size: 15px;
+  font-weight: 400;
+  color: ${({ theme }) => theme.text_primary + 99};
 
-@media (max-width: 768px) {
-  font-size: 12px
-}
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
 `;
 
 const ItemWrapper = styled.div`
-display: flex;
-flex-wrap: wrap;
-gap: 8px
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 `;
 
 const Image = styled.img`
   height: 50px;
-  width: 80px
-  border-radius: 10px; 
+  width: 80px;
+  border-radius: 10px;
   background-color: #000;
   margin-top: 4px;
 
@@ -138,40 +137,57 @@ const Image = styled.img`
   }
 `;
 
+const IframeContainer = styled.div`
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  margin-top: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+`;
 
+const Iframe = styled.iframe`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+`;
 
 const Experience = () => {
   return (
     <Container id="experience">
       <Title>Experience</Title>
       <Description>
-          Here are some of my experiences I've had in the past.
-        </Description>
+        Here are some of my experiences I've had in the past.
+      </Description>
       <Timeline>
         {experiences.map(experience => (
           <TimelineItem key={experience.id}>
             <TimelineContent>
-            <Image src={experience.img} alt="Company Logo" />
+              <Image src={experience.img} alt="Company Logo" />
               <Date>{experience.date}</Date>
               <Role>{experience.role}</Role>
               <Company>{experience.company}</Company>
               <Description>{experience.desc}
-              <>
-              <br/>
-              <SkillEX>
-              <b>Skills:</b>
-              <ItemWrapper>
-                {experience.skills.map((skill) => (
-                  <Skill>· {skill} </Skill>
-                ))}
-                  </ItemWrapper>  
-              </SkillEX>
-              </>
+                <>
+                  <br/>
+                  <SkillEX>
+                    <b>Skills:</b>
+                    <ItemWrapper>
+                      {experience.skills.map((skill, index) => (
+                        <Skill key={index}>· {skill} </Skill>
+                      ))}
+                    </ItemWrapper>
+                  </SkillEX>
+                </>
               </Description>
               {experience.doc && (
-                <a href={experience.doc} target="new">
-                  <Document src={experience.doc} />
-                </a>
+                <IframeContainer>
+                  <Iframe src={experience.doc.replace('/view', '/preview')}></Iframe>
+                </IframeContainer>
               )}
             </TimelineContent>
           </TimelineItem>

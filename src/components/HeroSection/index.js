@@ -154,7 +154,7 @@ const Hero = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:c7905cf8-9cf7-4f05-9bd7-4cfbf4e1f2ea" target="_blank">View Resume</ResumeButton>
+            <ResumeButton href="https://drive.google.com/file/d/1PVOx0hu5VfFGJaKH0M3bdMm-YyscOAob/view?usp=sharing" target="_blank">View Resume</ResumeButton>
           </HeroLeftContainer>
           <HeroRightContainer>
           <Image src={HeroImg} alt="Hero" />

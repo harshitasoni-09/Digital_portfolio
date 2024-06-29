@@ -10,7 +10,7 @@ export const Bio = {
       "ECE student with a passion for crafting seamless user experiences, specializing in front-end development. I've honed my skills in crafting web-applications.",
     github: "https://github.com/harshitasoni-09",
     Resume:
-      "https://acrobat.adobe.com/id/urn:aaid:sc:AP:c7905cf8-9cf7-4f05-9bd7-4cfbf4e1f2ea",
+      "https://drive.google.com/file/d/1PVOx0hu5VfFGJaKH0M3bdMm-YyscOAob/view?usp=sharing",
     linkedin: "www.linkedin.com/in/harshita-soni-950007271",
     Instagram: "https://www.instagram.com/stories/harshitasoni.09/",
   };
@@ -148,7 +148,7 @@ export const Bio = {
         {
           name: "Google Colab",
           image:
-            "https://assets.stickpng.com/images/63c2e4c9c4baad4ce22bf9ef.png",
+            "https://th.bing.com/th/id/OIP.3N_kSQjXXlkLFFvMVPfq1wEEEE?rs=1&pid=ImgDetMain",
         },
         {
           name: "Sk Learn Kit",
@@ -188,7 +188,7 @@ export const Bio = {
         {
           name: "Adobe XD",
           image:
-            "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png",
         },
         {
           name: "Figma",
@@ -218,8 +218,8 @@ export const Bio = {
         "CSS",
         "JavaScript",
       ],
-      doc: "https://media.licdn.com/dms/image/D562DAQGu2YPbWoU85g/profile-treasury-image-shrink_1280_1280/0/1697167093222?e=1712498400&v=beta&t=04kVVz6hEq-Hu1Zq14EcedH2tJTgS7R77THfzXrJoO0"
-      ,
+      doc: "https://drive.google.com/file/d/1rggT5QdauE9aYQ98yHBdfixyW-VtvQ1G/view?usp=sharing",
+      iframe: '<iframe src="https://drive.google.com/file/d/1rggT5QdauE9aYQ98yHBdfixyW-VtvQ1G/preview" width="600" height="400"></iframe>',
     },
     {
       id: 1,
@@ -234,8 +234,8 @@ export const Bio = {
         "MongoDB",
         "Git",
       ],
-      doc: "https://media.licdn.com/dms/image/D562DAQEnjunnWchdUg/profile-treasury-image-shrink_1280_1280/0/1706043566684?e=1712498400&v=beta&t=yEmTH_A-IDurUKJUgQHIMrGtMupaBo2kRIjG-4-fTlg",
-      
+      doc: "https://drive.google.com/file/d/1nF8jF3Qmpz4CBbNe8TD8rRGe44ZyGhFH/view?usp=sharing",
+      iframe: '<iframe src="https://drive.google.com/file/d/1nF8jF3Qmpz4CBbNe8TD8rRGe44ZyGhFH/preview" width="600" height="400"></iframe>',
     },
     {
       id: 2,
@@ -248,12 +248,12 @@ export const Bio = {
         "FrontEnd Development",
         "Visual Web Developer",
       ],
-      doc: "https://media.licdn.com/dms/image/D562DAQEpFGZjn7Ce8A/profile-treasury-image-shrink_800_800/0/1706263206443?e=1712498400&v=beta&t=jwY-VBrB-bZ7ehvlTB6JmSiDLnDmlVvI18ecHLHC5Us"
-      ,
+      doc: "https://drive.google.com/file/d/1R8ksbeyJeKv3F3fH2I05jrCb1GsEWb7h/view?usp=sharing",
+      iframe: '<iframe src="https://drive.google.com/file/d/1R8ksbeyJeKv3F3fH2I05jrCb1GsEWb7h/preview" width="600" height="400"></iframe>',
     },
     {
       id: 3,
-      img: "https://media.licdn.com/dms/image/C4E0BAQEGw09XmbKg3A/company-logo_100_100/0/1630618196563/internship_studio_logo?e=1716422400&v=beta&t=BsCm9wKHL4sYQ7MJjULSNvVS4ptmtfrY_iy2lLDkv4E",
+      img: "https://learnyst-user-assets.s3.ap-south-1.amazonaws.com/school-assets/schools/141298/schoolLogo/1661420785619eeeeeeeuuuuuuu-01.png",
       role: "AI Intern",
       company: "Internship Studio",
       date: "Dec 2023 - Feb 2024 · 3 mos",
@@ -265,17 +265,17 @@ export const Bio = {
         "Generative AI",
         "Pandas (Software)",
         "data preprocessing",
-    ],
-      doc: "https://media.licdn.com/dms/image/D4E2DAQH9U53RwvhDXA/profile-treasury-image-shrink_1280_1280/0/1707834315481?e=1712498400&v=beta&t=e_dHbt9lQtyFHlmwR-0qvZJM_YWKt50yAXaG-jhRJgo"
-      ,
+      ],
+      doc: "https://drive.google.com/file/d/11zY5pHCX1zUF54STcHYIa4jxIAcqGmSu/view?usp=sharing",
+      iframe: '<iframe src="https://drive.google.com/file/d/11zY5pHCX1zUF54STcHYIa4jxIAcqGmSu/preview" width="600" height="400"></iframe>',
     },
     {
       id: 4,
       img: "https://images.yourstory.com/cs/images/companies/8eaa6bd63f3c-Upskill-1674126847671.jpg",
-      role: "Embedded and IoT  Intern",
+      role: "Embedded and IoT Intern",
       company: "Upskill Campus",
       date: "Jan 2024 - Present · 2 mos",
-      desc: "InvolvING a combination of hardware and software development, testing, troubleshooting, and possibly some project management.",
+      desc: "Involving a combination of hardware and software development, testing, troubleshooting, and possibly some project management.",
       skills: [
         "Embedded Systems Development",
         "Cloud Services Integration",
@@ -283,7 +283,6 @@ export const Bio = {
         "IoT Device Development",
         "Testing and Debugging",
       ],
-      doc: "https://media.licdn.com/dms/image/D562DAQEZjkfTkdmLAw/profile-treasury-image-shrink_1280_1280/0/1706361777198?e=1712498400&v=beta&t=YR_pjFjvDqGU9Oq_w3AxOK_XPaX8ncQS7_rEUhSfycg"
     },
     {
       id: 5,
@@ -300,7 +299,25 @@ export const Bio = {
         "OBC",
       ],
     },
+    {
+      id: 6,
+      img: "https://yt3.googleusercontent.com/ytc/AL5GRJU_IBwuZ9ayhsZhOtbE0kvsc_ElsnDVKu5kwe1fQw=s900-c-k-c0x00ffffff-no-rj",
+      role: "DevOps Intern",
+      company: "Cloud Counselage",
+      date: "Sep 2023 - Present · 6 mos",
+      desc: "Streamline and automate software delivery pipelines. Assist in designing, implementing, and maintaining CI/CD workflows.",
+      skills: [
+        "Soft Skills",
+        "Programming",
+        "Testing",
+        "Cloud",
+        "Configuration",
+      ],
+      doc: "https://drive.google.com/file/d/1RLo0LS0PkUMiUYhVMS9CYCMUXfM109LT/view?usp=sharing",
+      iframe: '<iframe src="https://drive.google.com/file/d/1RLo0LS0PkUMiUYhVMS9CYCMUXfM109LT/preview" width="600" height="400"></iframe>',
+    },
   ];
+  
   
   export const education = [
     {
