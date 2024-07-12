@@ -29,7 +29,7 @@ const Title = styled.div`
 
 const Description = styled.div`
   font-size: 18px;
-  width: 600px;
+  width: 500px;
   text-align: center;
   color: ${({ theme }) => theme.text_secondary};
   margin-bottom: 20px;
@@ -54,7 +54,7 @@ border-radius: 10px;
 box-shadow: 0 0 12px 4px rgba(0,0,0,0.4);
 margin: 20px;
 height: 380px;
-width: 800px;
+width: 600px;
 overflow: hidden;
 `;
 

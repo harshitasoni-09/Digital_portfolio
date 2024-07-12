@@ -326,7 +326,7 @@ export const Bio = {
       school: "Dayananda Sagar University",
       date: "Oct 2021 - Present",
       grade: "Grade: 8.3 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Electronics and Communication Engineering at Dayananda Sagar University, Bengaluru. I have completed 5 semesters and have a CGPA of 8.3. I have taken courses in Embedded Systems, Signals and Systems, Machine Learning with Python, RF and Microwave Communication, Network Analysis, and Power Electronics, among others. I am also a member of the Centre for Space Science and Technology (CSST), where I am learning and working on exciting projects with a team of Space Scientists.",
+      desc: "I am currently pursuing a Bachelor's degree in Electronics and Communication Engineering at Dayananda Sagar University, Bengaluru. I have completed 5 semesters and have a CGPA of 8.3. I have taken courses in Embedded Systems, Signals and Systems, Machine Learning with Python, RF and Microwave Communication, Network Analysis, and Power Electronics, among others.",
       degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
     },
     {
@@ -487,7 +487,6 @@ export const Bio = {
       tags: ["MERN", "Laravel", "Socket I.O.Communication","GitHUb","HTML/CSS","JavaScript"],
       category: "web app",
       github: "https://github.com/harshitasoni-09",
-      webapp: "https://brain-tumor.netlify.app/",
     },
   ];
   
